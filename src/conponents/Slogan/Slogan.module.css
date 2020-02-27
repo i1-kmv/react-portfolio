@@ -1,0 +1,27 @@
+.slogan {
+    height: 200px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    min-width: 80%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+}
+
+.text {
+  background-color: darkgray;
+}
+
+
+.title p {
+    background-color: chocolate;
+    margin: 0px;
+}

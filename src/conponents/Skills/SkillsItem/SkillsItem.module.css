@@ -1,0 +1,24 @@
+.item {
+    height: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+}
+
+.itemImage {
+    width: 100px;
+    height: 100px;
+    background-color: darkgray;
+}
+
+.itemDescription {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid;
+}

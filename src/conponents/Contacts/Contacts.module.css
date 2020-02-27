@@ -1,0 +1,41 @@
+.contacts {
+    height: 100vh;
+    background-color: papayawhip;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    height: 75%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form {
+    width: 50%;
+    height: 40%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+form p {
+    background-color: darkgray;
+}
+
+.title p {
+    background-color: chocolate;
+    margin: 0px;
+}
+
+.button p {
+    background-color: chocolate;
+    margin: 0px;
+}
