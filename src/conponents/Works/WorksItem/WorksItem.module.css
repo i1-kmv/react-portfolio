@@ -39,3 +39,9 @@
     align-items: flex-start;
     border: 1px solid;
 }
+
+@media screen and (max-width: 450px ) {
+    .work  {
+       width: center;
+    }
+}

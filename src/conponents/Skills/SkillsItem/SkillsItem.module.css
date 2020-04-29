@@ -1,11 +1,8 @@
 .item {
-    height: 350px;
-    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid;
 }
 
 .itemImage {
@@ -20,5 +17,24 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    border: 1px solid;
 }
+
+@media screen and (max-width: 1000px ) {
+    .item {
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 650px ) {
+    .item {
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 468px ) {
+    .item  {
+        width: 100%;
+    }
+}
+
+
+

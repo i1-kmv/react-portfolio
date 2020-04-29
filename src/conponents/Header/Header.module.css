@@ -1,9 +1,11 @@
 .header {
     height: 70px;
-    background-color:lightblue;
+    width: 100%;
+    background-color:#ffffff;
     display: flex;
     justify-content: center;
-
+    position: fixed;
+    z-index: 2;
 }
 
 .container {

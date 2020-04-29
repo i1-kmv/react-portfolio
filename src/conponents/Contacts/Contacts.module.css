@@ -17,7 +17,7 @@
 }
 
 form {
-    width: 50%;
+    width: 500px;
     height: 40%;
     border: 1px solid;
     display: flex;
@@ -38,4 +38,10 @@ form p {
 .button p {
     background-color: chocolate;
     margin: 0px;
+}
+
+@media screen and (max-width: 626px ) {
+    form {
+        width: 100%;
+    }
 }
