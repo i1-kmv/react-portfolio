@@ -1,15 +1,12 @@
 import React from 'react';
 import styles from './SkillsItem.module.css'
 
-const SkillsItem = () => {
+const SkillsItem = (props) => {
     return (
         <div className={styles.item}>
-            <img className={styles.itemImage} src="" alt=""/>
-            <div className={styles.itemName}>
-                <p>React</p>
-            </div>
-            <div className={styles.itemDescription}>
-                <p>Подробное описание навыка</p>
+            <div className={styles.item__image}>{props.image}</div>
+            <div className={styles.item__name}>
+                <p>{props.name}</p>
             </div>
         </div>
     );

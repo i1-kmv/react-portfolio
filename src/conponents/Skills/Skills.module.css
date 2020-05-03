@@ -3,33 +3,53 @@
     background-color: #252527;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .container {
     width: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    padding-top: 50px;
 }
 
 .title {
     height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.title p {
-    background-color: chocolate;
+.title h2 {
     margin: 0px;
+    font-family: Montserrat, sans-serif;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: capitalize;
 }
 
-.skillsItem {
+.line {
+    height: 1px;
+    width: 55px;
+    background-color: #ea548d ;
+    margin: 30px 0;
+}
+
+.skills__item {
     width: 100%;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+
     flex-wrap: wrap;
 }
+
+
 
 @media screen and (max-width: 1000px ) {
     .skillsItem {

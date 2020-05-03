@@ -8,7 +8,6 @@ const Header = () => {
             <div className={styles.container}>
                 <NavMenu/>
             </div>
-
         </div>
     );
 }
