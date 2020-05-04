@@ -5,11 +5,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    flex-wrap: nowrap;
+    text-align: center;
 }
 
 .title h2 {
-    margin: 0px;
+    margin: 0px auto;
     font-family: Montserrat, sans-serif;
     line-height: 1.2;
     letter-spacing: 5px;
@@ -24,3 +25,11 @@
     background-color: darkcyan ;
     margin: 30px 0;
 }
+
+
+/*
+@media screen and (max-width: 500px ) {
+    .title h2 {
+        font-size: 24px;
+    }
+}*/

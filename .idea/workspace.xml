@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cacf6ba-44fe-453c-a804-31557f928cd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/conponents/Button/Button.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conponents/Button/Button.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conponents/Footer/FooterItem/FooterItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conponents/Footer/FooterItem/FooterItem.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conponents/Title/Title.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Contacts/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Contacts/Contacts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Contacts/Contacts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Footer/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Footer/Footer.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Main/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Main/Main.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Skills/Skills.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Skills/Skills.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Skills/Skills.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Skills/SkillsItem/SkillsItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Skills/SkillsItem/SkillsItem.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Slogan/Slogan.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Slogan/Slogan.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/conponents/Slogan/Slogan.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Slogan/Slogan.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Title/Title.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Title/Title.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Works/WorksItem/WorksItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Works/WorksItem/WorksItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Works/WorksItem/WorksItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Works/WorksItem/WorksItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/conponents/Title/Title.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Title/Title.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +100,7 @@
       <workItem from="1588076098648" duration="16179000" />
       <workItem from="1588242389293" duration="237000" />
       <workItem from="1588518243091" duration="10177000" />
-      <workItem from="1588591257107" duration="20158000" />
+      <workItem from="1588591257107" duration="21735000" />
     </task>
     <task id="LOCAL-00001" summary="1st step ready">
       <created>1582804820391</created>
@@ -154,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588596271280</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="step 2 ready">
+      <created>1588614410565</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588614410565</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,17 +157,18 @@
     <MESSAGE value="Доработал блок Main" />
     <MESSAGE value="Доработал блок Main, рефактор skill__items" />
     <MESSAGE value="доработал и адаптировал блок skills" />
-    <option name="LAST_COMMIT_MESSAGE" value="доработал и адаптировал блок skills" />
+    <MESSAGE value="step 2 ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="step 2 ready" />
   </component>
   <component name="WindowStateProjectService">
     <state x="205" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582189903597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="205" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582189903597" />
-    <state x="113" y="119" key="CommitChangelistDialog2" timestamp="1588596269896">
+    <state x="113" y="119" key="CommitChangelistDialog2" timestamp="1588614408521">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="113" y="119" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588596269896" />
+    <state x="113" y="119" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588614408521" />
     <state x="255" y="278" key="FileChooserDialogImpl" timestamp="1588242622061">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -202,9 +193,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582806964447" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1588596277123">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1588614420414">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588596277123" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588614420414" />
   </component>
 </project>

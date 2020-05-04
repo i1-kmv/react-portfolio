@@ -11,7 +11,7 @@ import Main from "./conponents/Main/Main";
 
 const App = () => {
     let state = {
-        titleName: ['My skills', 'My Works', 'I work as a freelancer', 'Contacts'],
+        titleName: ['My skills', 'My Works', 'I work remotely', 'Contacts'],
         buttonNames: ['To send','Hire me', 'View the project']
     };
 
