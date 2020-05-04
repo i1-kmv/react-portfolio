@@ -4,7 +4,7 @@ import FooterItem from "./FooterItem/FooterItem";
 
 const Footer = () => {
     let state = {
-        itemLink: ['https://github.com/i1-kmv', 'https://vk.com/id275446962', '@i1_kmv91'],
+        itemLink: ['https://github.com/i1-kmv', 'https://vk.com/id275446962', 'https://t.me/i1_kmv91'],
         itemImage: [<img src="https://img.icons8.com/ios-filled/150/000000/github.png"/>,
                     <img src="https://img.icons8.com/ios-filled/150/000000/vk-com.png"/>,
                     <img src="https://img.icons8.com/ios-filled/100/000000/sent.png"/>
@@ -23,7 +23,7 @@ const Footer = () => {
                     <FooterItem link={state.itemLink[2]} image={state.itemImage[2]}/>
                 </div>
                 <div className={styles.rights}>
-                    <p>2020 ©Все права защищены</p>
+                    <p>2020 ©All rights reserved</p>
                 </div>
             </div>
         </div>
