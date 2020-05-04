@@ -63,9 +63,11 @@
 
 
 .main__image {
+    display: block;
     height: 400px;
     width: 300px;
-    background-color: #bdd2c1;
+    background-image: url("../../image/1.png");
+    background-repeat: space;
 }
 
 
@@ -78,5 +80,11 @@
     left: 15px;
     top: -15px;
     z-index: -1;
+}
+
+@media screen and (max-width: 680px ) {
+    .main__greeting {
+        text-align: center;
+    }
 }
 

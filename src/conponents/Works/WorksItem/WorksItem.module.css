@@ -1,12 +1,13 @@
 .work {
     height: 450px;
     width: 450px;
-    background-color: white;
+    background-color: cadetblue;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     border: 1px solid;
+    margin: 20px;
 }
 
 .img {

@@ -1,13 +1,10 @@
 import React from 'react';
 import styles from './Skills.module.css';
 import SkillsItem from "./SkillsItem/SkillsItem";
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faReact} from '@fortawesome/free-brands-svg-icons';
-import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
-import {fa} from '@fortawesome/free-solid-svg-icons';
+import Title from "../Title/Title";
 
 
-const Skills = () => {
+const Skills = (props) => {
     let state = {
         skillsName: ['HTML5', 'CSS', 'JS', 'ReactJs',  'Redux', 'GitHub'],
         skillsImages: [<img src="https://img.icons8.com/ios-filled/150/000000/html-5.png"/>,
@@ -22,10 +19,7 @@ const Skills = () => {
     return (
         <div className={styles.skills}>
             <div className={styles.container}>
-                <div className={styles.title}>
-                    <h2>Мои скиллы</h2>
-                    <div className={styles.line}></div>
-                </div>
+                <Title name={props.name}/>
                 <div className={styles.skills__item}>
                     <SkillsItem name={state.skillsName[0]} image={state.skillsImages[0]}/>
                     <SkillsItem name={state.skillsName[1]} image={state.skillsImages[1]}/>

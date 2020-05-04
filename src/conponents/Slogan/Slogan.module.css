@@ -1,9 +1,9 @@
 .slogan {
     height: 200px;
-    background-color: pink;
+    background-color: #252527;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .container {
@@ -13,7 +13,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid;
+    padding-top: 30px;
 }
 
 .text {
@@ -21,7 +21,3 @@
 }
 
 
-.title p {
-    background-color: chocolate;
-    margin: 0px;
-}
