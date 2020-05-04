@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0cacf6ba-44fe-453c-a804-31557f928cd7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Header/NavMenu/NavMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Header/NavMenu/NavMenu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Header/NavMenu/NavMenu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Header/NavMenu/NavMenu.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Main/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Main/Main.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/conponents/Skills/Skills.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Skills/Skills.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/conponents/Skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Skills/Skills.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/conponents/Skills/SkillsItem/SkillsItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Skills/SkillsItem/SkillsItem.jsx" afterDir="false" />
@@ -108,7 +100,8 @@
       <workItem from="1585910515690" duration="41000" />
       <workItem from="1588076098648" duration="16179000" />
       <workItem from="1588242389293" duration="237000" />
-      <workItem from="1588518243091" duration="9280000" />
+      <workItem from="1588518243091" duration="10177000" />
+      <workItem from="1588591257107" duration="4871000" />
     </task>
     <task id="LOCAL-00001" summary="1st step ready">
       <created>1582804820391</created>
@@ -131,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588168772388</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Доработал блок Main, рефактор skill__items">
+      <created>1588528115165</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588528115165</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,17 +141,19 @@
     <MESSAGE value="1st step ready" />
     <MESSAGE value="1st step ready1" />
     <MESSAGE value="Адапртировал все блоки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Адапртировал все блоки" />
+    <MESSAGE value="Доработал блок Main" />
+    <MESSAGE value="Доработал блок Main, рефактор skill__items" />
+    <option name="LAST_COMMIT_MESSAGE" value="Доработал блок Main, рефактор skill__items" />
   </component>
   <component name="WindowStateProjectService">
     <state x="205" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582189903597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="205" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582189903597" />
-    <state x="113" y="119" key="CommitChangelistDialog2" timestamp="1588168770673">
+    <state x="113" y="119" key="CommitChangelistDialog2" timestamp="1588528112947">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="113" y="119" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588168770673" />
+    <state x="113" y="119" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588528112947" />
     <state x="255" y="278" key="FileChooserDialogImpl" timestamp="1588242622061">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -176,9 +178,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582806964447" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1588168780378">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1588528118965">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588168780378" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588528118965" />
   </component>
 </project>

@@ -37,7 +37,7 @@
 .line {
     height: 1px;
     width: 55px;
-    background-color: #ea548d ;
+    background-color: darkcyan ;
     margin: 30px 0;
 }
 
@@ -45,14 +45,19 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
     flex-wrap: wrap;
 }
 
-
-
 @media screen and (max-width: 1000px ) {
-    .skillsItem {
+    .skills__item {
+        justify-content: space-around;
+    }
+}
+
+
+@media screen and (max-width: 600px ) {
+    .skills__item {
         justify-content: center;
     }
 }

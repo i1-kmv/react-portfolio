@@ -1,7 +1,7 @@
 .item {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin: 20px 100px;
 }
@@ -9,19 +9,38 @@
 .item__image {
     width: 200px;
     height: 200px;
-
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.item__image img {
+    width: 150px;
+    height: 150px;
+}
 
-@media screen and (max-width: 1000px ) {
+.item__name {
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+}
+
+@media screen and (max-width: 1500px ) {
+    .item {
+        margin: 20px 50px;
+    }
+}
+
+@media screen and (max-width: 1130px ) {
     .item {
         margin: 20px;
     }
 }
 
-@media screen and (max-width: 650px ) {
+@media screen and (max-width: 620px ) {
     .item {
         margin-top: 10px;
+        justify-content: center;
     }
 }
 @media screen and (max-width: 468px ) {
