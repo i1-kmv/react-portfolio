@@ -35,6 +35,9 @@
     .skills__item {
         justify-content: center;
     }
-}
+    .container {
+        padding-top: 10px;
+    }
 
+}
 
