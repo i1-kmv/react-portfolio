@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="0cacf6ba-44fe-453c-a804-31557f928cd7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Contacts/Contacts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Header/NavMenu/NavMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Header/NavMenu/NavMenu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/conponents/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Main/Main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/conponents/Main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Main/Main.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/conponents/Skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Skills/Skills.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/conponents/Skills/SkillsItem/SkillsItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Skills/SkillsItem/SkillsItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/conponents/Works/WorksItem/WorksItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Works/WorksItem/WorksItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/conponents/Works/WorksItem/WorksItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Works/WorksItem/WorksItem.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +36,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/conponents/Button" />
+    <property name="last_opened_file_path" value="D:/hard/hard-counter" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -100,7 +103,7 @@
       <workItem from="1588076098648" duration="16179000" />
       <workItem from="1588242389293" duration="237000" />
       <workItem from="1588518243091" duration="10177000" />
-      <workItem from="1588591257107" duration="24450000" />
+      <workItem from="1588591257107" duration="33365000" />
     </task>
     <task id="LOCAL-00001" summary="1st step ready">
       <created>1582804820391</created>
@@ -158,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588616628271</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Настройка адаптива">
+      <created>1588675311656</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1588675311656</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,21 +184,22 @@
     <MESSAGE value="step 2 ready" />
     <MESSAGE value="пофиксил проблемы в блоке slogan" />
     <MESSAGE value="Исправил ссылку в телеграм" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправил ссылку в телеграм" />
+    <MESSAGE value="Настройка адаптива" />
+    <option name="LAST_COMMIT_MESSAGE" value="Настройка адаптива" />
   </component>
   <component name="WindowStateProjectService">
     <state x="205" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582189903597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="205" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582189903597" />
-    <state x="113" y="119" key="CommitChangelistDialog2" timestamp="1588616627477">
+    <state x="113" y="119" key="CommitChangelistDialog2" timestamp="1588675310708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="113" y="119" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588616627477" />
-    <state x="255" y="278" key="FileChooserDialogImpl" timestamp="1588242622061">
+    <state x="113" y="119" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588675310708" />
+    <state x="255" y="278" key="FileChooserDialogImpl" timestamp="1588690441444">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="255" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588242622061" />
+    <state x="255" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588690441444" />
     <state x="827" y="419" key="Github.ShareDialog" timestamp="1582305579841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -209,9 +220,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582806964447" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1588616638997">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1588675318474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588616638997" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588675318474" />
   </component>
 </project>
