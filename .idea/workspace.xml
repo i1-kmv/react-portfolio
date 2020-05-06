@@ -3,7 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="0cacf6ba-44fe-453c-a804-31557f928cd7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/conponents/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Contacts/Contacts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/conponents/Main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Main/Main.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/conponents/Works/WorksItem/WorksItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Works/WorksItem/WorksItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/conponents/Works/WorksItem/WorksItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/conponents/Works/WorksItem/WorksItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +106,7 @@
       <workItem from="1588076098648" duration="16179000" />
       <workItem from="1588242389293" duration="237000" />
       <workItem from="1588518243091" duration="10177000" />
-      <workItem from="1588591257107" duration="33884000" />
+      <workItem from="1588591257107" duration="42156000" />
     </task>
     <task id="LOCAL-00001" summary="1st step ready">
       <created>1582804820391</created>
@@ -177,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588696571283</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="2-3 этап пофиксил проблемы с бэкграундами">
+      <created>1588696835080</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1588696835080</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,17 +210,18 @@
     <MESSAGE value="Исправил ссылку в телеграм" />
     <MESSAGE value="Настройка адаптива" />
     <MESSAGE value="2-3 этап ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="2-3 этап ready" />
+    <MESSAGE value="2-3 этап пофиксил проблемы с бэкграундами" />
+    <option name="LAST_COMMIT_MESSAGE" value="2-3 этап пофиксил проблемы с бэкграундами" />
   </component>
   <component name="WindowStateProjectService">
     <state x="205" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582189903597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="205" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582189903597" />
-    <state x="113" y="119" key="CommitChangelistDialog2" timestamp="1588696570506">
+    <state x="113" y="119" key="CommitChangelistDialog2" timestamp="1588696834063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="113" y="119" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588696570506" />
+    <state x="113" y="119" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588696834063" />
     <state x="255" y="278" key="FileChooserDialogImpl" timestamp="1588690441444">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -230,9 +246,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582806964447" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1588696583113">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1588696845166">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588696583113" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588696845166" />
+    <state x="160" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1588763860923">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="160" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588763860923" />
   </component>
 </project>

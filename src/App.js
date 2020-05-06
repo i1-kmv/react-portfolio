@@ -7,6 +7,28 @@ import Footer from "./conponents/Footer/Footer";
 import Header from "./conponents/Header/Header";
 import Skills from "./conponents/Skills/Skills";
 import Main from "./conponents/Main/Main";
+import Particles from 'react-particles-js';
+
+const particlesOpt = {
+    "particles": {
+        "number": {
+            "value":30,
+        },
+        "size": {
+            "value": 3
+        }
+    },
+    "interactivity": {
+        "events": {
+            "onhover": {
+                "enable": true,
+                "mode": "repulse"
+            }
+        }
+    }
+};
+
+
 
 
 const App = () => {
@@ -17,7 +39,9 @@ const App = () => {
 
     return (
         <div className="App">
-            <div className="portfolio">
+                <Particles className="particles"
+                           params={particlesOpt}
+                />
                 <Header/>
                 <Main/>
                 <Skills name={state.titleName[0]}/>
@@ -26,7 +50,6 @@ const App = () => {
                 <Contacts name={state.titleName[3]} buttonName={state.buttonNames[0]}/>
                 <Footer/>
             </div>
-        </div>
     );
 }
 
