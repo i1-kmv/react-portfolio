@@ -13,6 +13,7 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 form {
@@ -24,6 +25,11 @@ form {
     align-items: stretch;
 }
 
+input:focus,textarea:focus {
+    border: 2px solid #ffffff;
+    transition: all .5s ease-in-out 0s;
+}
+
 input {
     margin: 10px;
     border: 2px solid darkcyan;
@@ -32,10 +38,11 @@ input {
     outline: none;
 }
 
-input::-webkit-input-placeholder {
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
     color: white;
     font-family: Montserrat, sans-serif;
 }
+
 
 textarea {
     margin: 10px;

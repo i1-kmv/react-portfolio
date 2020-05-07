@@ -9,6 +9,7 @@ import Skills from "./conponents/Skills/Skills";
 import Main from "./conponents/Main/Main";
 import Particles from 'react-particles-js';
 
+
 const particlesOpt = {
     "particles": {
         "number": {
@@ -33,7 +34,7 @@ const particlesOpt = {
 
 const App = () => {
     let state = {
-        titleName: ['My skills', 'My Works', 'I work remotely', 'Contacts'],
+        titleName: ['My skills', 'My Projects', 'I work as a freelancer', 'Contacts'],
         buttonNames: ['To send','Hire me', 'View the project']
     };
 

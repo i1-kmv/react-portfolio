@@ -2,19 +2,30 @@ import React from 'react';
 import styles from './Contacts.module.css'
 import Title from "../Title/Title";
 import Button from "../Button/Button";
+import Fade from 'react-reveal/Fade';
 
 const Contacts = (props) => {
     return (
-        <div className={styles.contacts}>
-          <div className={styles.container}>
-             <Title name={props.name}/>
+        <div id={"contacts"}   className={styles.contacts}>
+            <div className={styles.container}>
+                <Title name={props.name}/>
+
                 <form>
-                    <input type="text" placeholder={'Your name'}/>
-                    <input type="email" placeholder={'Your email address'}/>
-                    <textarea name="text" id="" cols="30" rows="10"></textarea>
+                    <Fade right>
+                        <input type="text" placeholder={'Your name'}/>
+                    </Fade>
+                    <Fade left>
+                        <input type="email" placeholder={'Your email address'}/>
+                    </Fade>
+                    <Fade right>
+                        <textarea name="text" id="" cols="30" rows="10" placeholder={"Enter a message"}></textarea>
+                    </Fade>
                 </form>
-              <Button name={props.buttonName}/>
-          </div>
+
+                    <Button name={props.buttonName}/>
+
+
+            </div>
         </div>
     );
 }

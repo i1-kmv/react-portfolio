@@ -2,6 +2,8 @@ import React from 'react';
 import styles from './Skills.module.css';
 import SkillsItem from "./SkillsItem/SkillsItem";
 import Title from "../Title/Title";
+import Fade from 'react-reveal/Fade';
+
 
 
 const Skills = (props) => {
@@ -17,10 +19,11 @@ const Skills = (props) => {
     };
 
     return (
-        <div className={styles.skills}>
+        <div className={styles.skills} id={'skills'}>
             <div className={styles.container}>
                 <Title name={props.name}/>
-                <div className={styles.skills__item}>
+                <Fade clear>
+                <div className={styles.skills__item} >
                     <SkillsItem name={state.skillsName[0]} image={state.skillsImages[0]}/>
                     <SkillsItem name={state.skillsName[1]} image={state.skillsImages[1]}/>
                     <SkillsItem name={state.skillsName[2]} image={state.skillsImages[2]}/>
@@ -28,6 +31,7 @@ const Skills = (props) => {
                     <SkillsItem name={state.skillsName[4]} image={state.skillsImages[4]}/>
                     <SkillsItem name={state.skillsName[5]} image={state.skillsImages[5]}/>
                 </div>
+                </Fade>
             </div>
         </div>
     );
