@@ -4,7 +4,7 @@ import styles from './Main.module.css'
 
 const Main = () => {
     return (
-        <div className={styles.main}>
+        <div className={styles.main} id={'main'}>
             <div className={styles.container}>
                 <div className={styles.main__greeting}>
                     <span className={styles.greeting__item} >Hi There!</span>

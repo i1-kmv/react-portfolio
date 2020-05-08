@@ -9,13 +9,19 @@
     align-items: center;
     margin: 20px;
     position: relative;
+    opacity: 0.8;
 }
 
-.button {
-    position: relative;
-}
 
-.work:before {
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffffff;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
     content: '';
     position: absolute;
     top: 0;
@@ -23,10 +29,15 @@
     height: 100%;
     width: 100%;
     background-color: black;
-    opacity: 0.6;
+    opacity:0;
 }
 
 
+.work:hover .link {
+    opacity: 0.9;
+    transition: 700ms;
+    border: 2px solid darkcyan;
+}
 
 
 @media screen and (max-width: 450px ) {

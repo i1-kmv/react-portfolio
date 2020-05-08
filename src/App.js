@@ -35,7 +35,7 @@ const particlesOpt = {
 const App = () => {
     let state = {
         titleName: ['My skills', 'My Projects', 'I work as a freelancer', 'Contacts'],
-        buttonNames: ['To send','Hire me', 'View the project']
+        buttonNames: ['To send','Hire me']
     };
 
     return (
@@ -46,7 +46,7 @@ const App = () => {
                 <Header/>
                 <Main/>
                 <Skills name={state.titleName[0]}/>
-                <Works name={state.titleName[1]} buttonName={state.buttonNames[2]}/>
+                <Works name={state.titleName[1]} />
                 <Slogan name={state.titleName[2]} buttonName={state.buttonNames[1]}/>
                 <Contacts name={state.titleName[3]} buttonName={state.buttonNames[0]}/>
                 <Footer/>

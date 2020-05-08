@@ -3,6 +3,9 @@ import styles from './Skills.module.css';
 import SkillsItem from "./SkillsItem/SkillsItem";
 import Title from "../Title/Title";
 import Fade from 'react-reveal/Fade';
+import { Link, animateScroll as scroll } from "react-scroll";
+
+
 
 
 
@@ -19,7 +22,8 @@ const Skills = (props) => {
     };
 
     return (
-        <div className={styles.skills} id={'skills'}>
+
+        <div className={styles.skills} id={'skills'} >
             <div className={styles.container}>
                 <Title name={props.name}/>
                 <Fade clear>

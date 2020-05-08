@@ -1,6 +1,5 @@
 .main {
     min-height: 100vh;
- /*   background-color: #1f1f20;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,8 +62,11 @@
 }
 
 .main__photo:hover {
-   transform: scale(1.1, 1.1);
+    -webkit-transform: rotateZ(10deg);
+    -ms-transform: rotateZ(10deg);
+    transform: rotateZ(10deg);
 }
+
 
 
 .main__image {
@@ -72,6 +74,8 @@
     height: 400px;
     width: 300px;
     background-image: url("../../image/1.png");
+    background-position: top center;
+    background-size: 100% 100%;
     background-repeat: space;
 }
 
@@ -96,10 +100,17 @@
 
 @media screen and (max-width: 500px ) {
     .greeting__surname:before {
-
         width: 100%;
         bottom: 0px;
-
     }
+    .main__image {
+        height: 350px;
+        width: 250px;
+    }
+    .main__image:before {
+        height: 370px;
+        width: 250px;
+    }
+
 }
 
