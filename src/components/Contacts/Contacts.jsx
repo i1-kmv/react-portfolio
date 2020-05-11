@@ -10,6 +10,8 @@ const Contacts = (props) => {
             <div className={styles.container}>
                 <Title name={props.name}/>
 
+
+
                 <form>
                     <Fade right>
                         <input type="text" placeholder={'Your name'}/>
@@ -18,7 +20,7 @@ const Contacts = (props) => {
                         <input type="email" placeholder={'Your email address'}/>
                     </Fade>
                     <Fade right>
-                        <textarea name="text" id="" cols="30" rows="10" placeholder={"Enter a message"}></textarea>
+                        <textarea name="text" id="" cols="30" rows="10" placeholder={"Enter a message"} ></textarea>
                     </Fade>
                 </form>
 

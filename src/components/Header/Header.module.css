@@ -1,12 +1,13 @@
 .header {
-    height: 50px;
+    height: 70px;
     width: 100%;
-    background-color:#ffffff;
+    background-color: #252527;
     display: flex;
     justify-content: center;
+    align-items: center;
     position: fixed;
     z-index: 2;
-
+    border-bottom: 2px solid darkcyan;
 }
 
 .container {

@@ -21,6 +21,7 @@
     font-weight: 600;
     color: #ffffff;
     font-family: Montserrat, sans-serif;
+    text-align: center;
     text-decoration: none;
     content: '';
     position: absolute;
@@ -39,9 +40,29 @@
     border: 2px solid darkcyan;
 }
 
+@media screen and (max-width: 650px ) {
+   .work {
+       width: 400px;
+       height: 300px;
+   }
+}
 
-@media screen and (max-width: 450px ) {
-    .work  {
-       width:100%;
+@media screen and (max-width: 550px ) {
+    .work {
+        width: 250px;
+        height: 150px;
+    }
+    .link {
+        opacity: 0.7;
     }
 }
+
+
+@media screen and (max-width: 350px ) {
+    .work {
+        width: 200px;
+        height: 100px;
+    }
+}
+
+
