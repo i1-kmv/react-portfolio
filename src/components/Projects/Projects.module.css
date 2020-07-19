@@ -1,0 +1,45 @@
+.works {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.works__items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+@media screen and (max-width: 600px ) {
+    .container {
+        padding: 30px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 450px ) {
+    .works {
+        align-items: center;
+    }
+
+    container {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+

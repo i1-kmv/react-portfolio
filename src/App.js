@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Works from "./components/Works/Works";
+import Projects from "./components/Projects/Projects";
 import Slogan from "./components/Slogan/Slogan";
 import Contacts from "./components/Contacts/Contacts";
 import Footer from "./components/Footer/Footer";
@@ -33,7 +33,8 @@ const particlesOpt = {
 
 
 const App = () => {
-    let state = {
+
+    let logos = {
         titleName: ['My skills', 'My Projects', 'I work as a freelancer', 'Contacts'],
         buttonNames: ['To send','Hire me']
     };
@@ -45,10 +46,10 @@ const App = () => {
                 />
                 <Header/>
                 <Main/>
-                <Skills name={state.titleName[0]}/>
-                <Works name={state.titleName[1]} />
-                <Slogan name={state.titleName[2]} buttonName={state.buttonNames[1]}/>
-                <Contacts name={state.titleName[3]} buttonName={state.buttonNames[0]}/>
+                <Skills name={logos.titleName[0]}/>
+                <Projects name={logos.titleName[1]} />
+                <Slogan name={logos.titleName[2]} buttonName={logos.buttonNames[1]}/>
+                <Contacts name={logos.titleName[3]} buttonName={logos.buttonNames[0]}/>
                 <Footer/>
             </div>
     );

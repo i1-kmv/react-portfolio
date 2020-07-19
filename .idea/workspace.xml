@@ -3,33 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0cacf6ba-44fe-453c-a804-31557f928cd7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Button/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Button/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Contacts/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Footer/FooterItem/FooterItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/FooterItem/FooterItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Footer/FooterItem/FooterItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/FooterItem/FooterItem.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Header/NavMenu/NavMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/NavMenu/NavMenu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Header/NavMenu/NavMenu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/NavMenu/NavMenu.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Skills/Skills.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Skills/SkillsItem/SkillsItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/SkillsItem/SkillsItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Skills/SkillsItem/SkillsItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/SkillsItem/SkillsItem.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Slogan/Slogan.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slogan/Slogan.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Slogan/Slogan.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slogan/Slogan.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Title/Title.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Title/Title.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Title/Title.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Title/Title.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Works/WorksItem/WorksItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Works/WorksItem/WorksItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conponents/Works/WorksItem/WorksItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Works/WorksItem/WorksItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Works/WorksItem/WorksItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/ProjectsItem/ProjectsItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Works/WorksItem/WorksItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/ProjectsItem/ProjectsItem.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +33,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/easyCode/react/my-app" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -73,18 +49,18 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\react-portfolio\react-portfolio\src\image" />
+      <recent name="D:\react-portfolio\react-portfolio\src\conponents\Main" />
+      <recent name="D:\react-portfolio\react-portfolio\src\conponents\Skills\SkillsItem" />
+      <recent name="D:\react-portfolio\react-portfolio\src\conponents\Header" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\react-portfolio\react-portfolio\src\conponents\Button" />
       <recent name="D:\react-portfolio\react-portfolio\src\conponents\Footer\FooterItem" />
       <recent name="D:\react-portfolio\react-portfolio\src\conponents\Title" />
       <recent name="D:\react-portfolio\react-portfolio\src\conponents\Works\WorksItem" />
       <recent name="D:\react-portfolio\react-portfolio\src\conponents\Skills\SkillsItem" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\react-portfolio\react-portfolio\src\image" />
-      <recent name="D:\react-portfolio\react-portfolio\src\conponents\Main" />
-      <recent name="D:\react-portfolio\react-portfolio\src\conponents\Skills\SkillsItem" />
-      <recent name="D:\react-portfolio\react-portfolio\src\conponents\Header" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -129,7 +105,12 @@
       <workItem from="1588518243091" duration="10177000" />
       <workItem from="1588591257107" duration="65099000" />
       <workItem from="1589104890843" duration="16000" />
-      <workItem from="1589203842394" duration="13623000" />
+      <workItem from="1589203842394" duration="14469000" />
+      <workItem from="1589268828209" duration="643000" />
+      <workItem from="1595161998534" duration="4326000" />
+      <workItem from="1595166996911" duration="14000" />
+      <workItem from="1595167012942" duration="1221000" />
+      <workItem from="1595170907450" duration="21000" />
     </task>
     <task id="LOCAL-00001" summary="1st step ready">
       <created>1582804820391</created>
@@ -236,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588937373384</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Добавил проекты и настроил адаптив в блоке 'Works', добавил стили в 'Header'">
+      <created>1589218562356</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1589218562364</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,49 +246,42 @@
     <MESSAGE value="Добавил анимацию в бэкграунд" />
     <MESSAGE value="Добавил анимацию на страницу, сделал якорные ссылки на элементы" />
     <MESSAGE value="настроил hover эффект для айтемов блока projects, подключил и настроил react-scroll" />
-    <option name="LAST_COMMIT_MESSAGE" value="настроил hover эффект для айтемов блока projects, подключил и настроил react-scroll" />
+    <MESSAGE value="Добавил проекты и настроил адаптив в блоке 'Works', добавил стили в 'Header'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил проекты и настроил адаптив в блоке 'Works', добавил стили в 'Header'" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#ESLint" timestamp="1588938134334">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1588938134334" />
-    <state x="205" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582189903597">
+    <state x="113" y="119" key="CommitChangelistDialog2" timestamp="1589218560575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="205" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582189903597" />
-    <state x="113" y="119" key="CommitChangelistDialog2" timestamp="1588937371847">
+    <state x="113" y="119" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589218560575" />
+    <state x="255" y="278" key="FileChooserDialogImpl" timestamp="1595170926406">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="113" y="119" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588937371847" />
-    <state x="255" y="278" key="FileChooserDialogImpl" timestamp="1589104904032">
+    <state x="255" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595170926406" />
+    <state width="1899" height="206" key="GridCell.Tab.0.bottom" timestamp="1589218587935">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="255" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589104904032" />
-    <state x="827" y="419" key="Github.ShareDialog" timestamp="1582305579841">
+    <state width="1899" height="206" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589218587935" />
+    <state width="1899" height="206" key="GridCell.Tab.0.center" timestamp="1589218587935">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="827" y="419" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582305579841" />
-    <state width="1899" height="281" key="GridCell.Tab.0.bottom" timestamp="1582806964448">
+    <state width="1899" height="206" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589218587935" />
+    <state width="1899" height="206" key="GridCell.Tab.0.left" timestamp="1589218587934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582806964448" />
-    <state width="1899" height="281" key="GridCell.Tab.0.center" timestamp="1582806964447">
+    <state width="1899" height="206" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589218587934" />
+    <state width="1899" height="206" key="GridCell.Tab.0.right" timestamp="1589218587935">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582806964447" />
-    <state width="1899" height="281" key="GridCell.Tab.0.left" timestamp="1582806964447">
+    <state width="1899" height="206" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589218587935" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1589218566480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582806964447" />
-    <state width="1899" height="281" key="GridCell.Tab.0.right" timestamp="1582806964447">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582806964447" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1588937421273">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588937421273" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589218566480" />
     <state x="160" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1588763860923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

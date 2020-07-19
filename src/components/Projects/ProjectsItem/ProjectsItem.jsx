@@ -1,11 +1,11 @@
 import React from 'react';
-import styles from './WorksItem.module.css'
+import styles from './ProjectsItem.module.css'
 
 
 
 
 
-const WorksItem = (props) => {
+const ProjectsItem = (props) => {
 
     return (
         <div className={styles.work} style={props.style}>
@@ -14,4 +14,4 @@ const WorksItem = (props) => {
     );
 }
 
-export default WorksItem;
+export default ProjectsItem;
