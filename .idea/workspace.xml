@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0cacf6ba-44fe-453c-a804-31557f928cd7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Works/WorksItem/WorksItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/ProjectsItem/ProjectsItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Works/WorksItem/WorksItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/ProjectsItem/ProjectsItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/easyCode/react/my-app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -111,6 +109,9 @@
       <workItem from="1595166996911" duration="14000" />
       <workItem from="1595167012942" duration="1221000" />
       <workItem from="1595170907450" duration="21000" />
+      <workItem from="1595177233753" duration="487000" />
+      <workItem from="1595178135109" duration="1562000" />
+      <workItem from="1595268533575" duration="726000" />
     </task>
     <task id="LOCAL-00001" summary="1st step ready">
       <created>1582804820391</created>
@@ -258,10 +259,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="113" y="119" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589218560575" />
-    <state x="255" y="278" key="FileChooserDialogImpl" timestamp="1595170926406">
+    <state x="255" y="278" key="FileChooserDialogImpl" timestamp="1595177719482">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="255" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595170926406" />
+    <state x="255" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595177719482" />
     <state width="1899" height="206" key="GridCell.Tab.0.bottom" timestamp="1589218587935">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
