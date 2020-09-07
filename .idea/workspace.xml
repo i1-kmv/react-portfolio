@@ -31,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/easyCode/starDB/star-db" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -111,7 +111,9 @@
       <workItem from="1595170907450" duration="21000" />
       <workItem from="1595177233753" duration="487000" />
       <workItem from="1595178135109" duration="1562000" />
-      <workItem from="1595268533575" duration="726000" />
+      <workItem from="1595268533575" duration="1522000" />
+      <workItem from="1595351689683" duration="51000" />
+      <workItem from="1599478688117" duration="4552000" />
     </task>
     <task id="LOCAL-00001" summary="1st step ready">
       <created>1582804820391</created>
@@ -251,41 +253,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="Добавил проекты и настроил адаптив в блоке 'Works', добавил стили в 'Header'" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="179" key="#ESLint" timestamp="1588938134334">
+    <state x="255" y="278" key="FileChooserDialogImpl" timestamp="1599481973575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="179" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1588938134334" />
-    <state x="113" y="119" key="CommitChangelistDialog2" timestamp="1589218560575">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="113" y="119" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589218560575" />
-    <state x="255" y="278" key="FileChooserDialogImpl" timestamp="1595177719482">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="255" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595177719482" />
-    <state width="1899" height="206" key="GridCell.Tab.0.bottom" timestamp="1589218587935">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="206" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589218587935" />
-    <state width="1899" height="206" key="GridCell.Tab.0.center" timestamp="1589218587935">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="206" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589218587935" />
-    <state width="1899" height="206" key="GridCell.Tab.0.left" timestamp="1589218587934">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="206" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589218587934" />
-    <state width="1899" height="206" key="GridCell.Tab.0.right" timestamp="1589218587935">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="206" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589218587935" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1589218566480">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589218566480" />
-    <state x="160" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1588763860923">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="160" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588763860923" />
+    <state x="255" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599481973575" />
   </component>
 </project>

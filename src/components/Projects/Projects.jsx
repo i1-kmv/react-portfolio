@@ -10,6 +10,10 @@ import blogImg from "../../image/6.png";
 import gotImg from '../../image/7.png';
 import artImg from '../../image/8.png';
 import windowsImg from '../../image/9.png';
+import pulseImg from '../../image/10.png';
+import taxiImg from '../../image/11.png';
+import starWarsImg from '../../image/12.png';
+
 
 
 import Fade from 'react-reveal/Fade';
@@ -26,6 +30,9 @@ const Projects = (props) => {
         {name: 'Work with GOT Api', link: 'https://i1-kmv.github.io/React-GotApp/',   style: {backgroundImage: `url(${gotImg})`}},
         {name: 'ART', link: 'https://i1-kmv.github.io/Art/',   style: {backgroundImage: `url(${artImg})`}},
         {name: 'Window shop', link: 'https://i1-kmv.github.io/windowMarketIrvas/',   style: {backgroundImage: `url(${windowsImg})`}},
+        {name: 'Pulse', link: 'https://i1-kmv.github.io/HeartMonitorDIst/',   style: {backgroundImage: `url(${pulseImg})`}},
+        {name: 'Taxi', link: 'https://i1-kmv.github.io/uber777/',   style: {backgroundImage: `url(${taxiImg})`}},
+        {name: 'StarWars DataBase', link: 'https://i1-kmv.github.io/starDB/',   style: {backgroundImage: `url(${starWarsImg})`}}
     ]
 
 
