@@ -20,7 +20,7 @@ import Fade from 'react-reveal/Fade';
 const Projects = (props) => {
 
     let projects = [
-        {name: 'Counter', link: 'https://i1-kmv.github.io/hardCounter/',  style: {backgroundImage: `url(${counterImg})`}},
+        {name: 'React - Counter', link: 'https://i1-kmv.github.io/hardCounter/',  style: {backgroundImage: `url(${counterImg})`}},
         {name: 'TypeScript - ToDoList', link: ' https://i1-kmv.github.io/TODOLIST-TS/',   style: {backgroundImage: `url(${TodoList})`}},
         {name: 'Expense calculator', link: 'https://i1-kmv.github.io/Present-calc/', style: {backgroundImage: `url(${walletImg})`}},
         {name: 'Repair', link: 'https://i1-kmv.github.io/repair-gh/', style: {backgroundImage: `url(${repairImg})`}},

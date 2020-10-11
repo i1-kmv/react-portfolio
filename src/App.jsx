@@ -10,6 +10,7 @@ import Main from "./components/Main/Main";
 import Particles from 'react-particles-js';
 
 
+
 const particlesOpt = {
     "particles": {
         "number": {

@@ -46,7 +46,7 @@
     background-color: darkcyan;
     bottom: 0px;
     z-index: -1;
-
+    border-radius: 10px;
 }
 
 .greeting__title {
@@ -64,7 +64,7 @@
 .main__photo:hover {
     -webkit-transform: rotateZ(10deg);
     -ms-transform: rotateZ(10deg);
-    transform: rotateZ(10deg);
+    transform: rotateZ(400grad);
 }
 
 
@@ -78,6 +78,12 @@
     background-size: 100% 100%;
     background-repeat: space;
     border-radius: 10px;
+}
+
+.main__image:hover {
+    background-image: url("../../image/14.png") ;
+    transition: all .6s ease-in-out 0s;
+
 }
 
 
