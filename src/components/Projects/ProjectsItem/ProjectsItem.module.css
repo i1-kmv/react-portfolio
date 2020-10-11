@@ -8,6 +8,7 @@
     justify-content: center;
     align-items: center;
     margin: 20px;
+    border-radius: 10px;
     position: relative;
     opacity: 0.8;
 }
@@ -37,6 +38,7 @@
 .work:hover .link {
     opacity: 0.9;
     transition: 700ms;
+    border-radius: 10px;
     border: 2px solid darkcyan;
 }
 

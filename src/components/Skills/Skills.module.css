@@ -3,7 +3,7 @@
     background-color: #252527;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center ;
 }
 
 .container {
@@ -19,7 +19,7 @@
 .skills__item {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     outline: none;

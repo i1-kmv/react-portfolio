@@ -10,16 +10,20 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 
 const Skills = (props) => {
-    let state = {
-        skillsName: ['HTML5', 'CSS', 'JS', 'ReactJs',  'Redux', 'GitHub'],
-        skillsImages: [<img src="https://img.icons8.com/ios-filled/150/000000/html-5.png"/>,
-                       <img src="https://img.icons8.com/ios-filled/250/000000/css3.png"/>,
-                       <img src="https://img.icons8.com/ios/250/000000/javascript.png"/>,
-                       <img src="https://img.icons8.com/ios-filled/250/000000/react-native.png"/>,
-                       <img src="https://img.icons8.com/ios/250/000000/redux.png"/>,
-                       <img src="https://img.icons8.com/ios-filled/250/000000/github.png"/>
-        ]
-    };
+
+    const data = [
+        {skillName: 'HTML5' , skillImage: <img src="https://img.icons8.com/ios-filled/150/000000/html-5.png"/> },
+        {skillName: 'CSS' , skillImage: <img src="https://img.icons8.com/ios-filled/250/000000/css3.png"/> },
+        {skillName: 'JS' , skillImage:  <img src="https://img.icons8.com/ios/250/000000/javascript.png"/>},
+        {skillName:  'TS' , skillImage: <img src="https://img.icons8.com/ios/250/000000/typescript.png"/> },
+        {skillName: 'ReactJs' , skillImage:    <img src="https://img.icons8.com/ios-filled/250/000000/react-native.png"/>},
+        {skillName:  'Redux' , skillImage:    <img src="https://img.icons8.com/ios/250/000000/redux.png"/>},
+        {skillName:  'GitHub' , skillImage:  <img src="https://img.icons8.com/ios-filled/250/000000/github.png"/> },
+    ]
+
+    const skills = data.map( (s) => {
+        return <SkillsItem name={s.skillsName} image={s.skillImage}/>
+    })
 
     return (
 
@@ -28,12 +32,7 @@ const Skills = (props) => {
                 <Title name={props.name}/>
                 <Fade clear>
                 <div className={styles.skills__item} >
-                    <SkillsItem name={state.skillsName[0]} image={state.skillsImages[0]}/>
-                    <SkillsItem name={state.skillsName[1]} image={state.skillsImages[1]}/>
-                    <SkillsItem name={state.skillsName[2]} image={state.skillsImages[2]}/>
-                    <SkillsItem name={state.skillsName[3]} image={state.skillsImages[3]}/>
-                    <SkillsItem name={state.skillsName[4]} image={state.skillsImages[4]}/>
-                    <SkillsItem name={state.skillsName[5]} image={state.skillsImages[5]}/>
+                    {skills}
                 </div>
                 </Fade>
             </div>

@@ -36,6 +36,7 @@ input {
     background-color: #252527;
     color: white;
     outline: none;
+    border-radius: 10px;
 }
 
 input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
@@ -51,6 +52,7 @@ textarea {
     outline: none;
     color: white;
     font-size: 14px;
+    border-radius: 10px;
 }
 
 .button p {

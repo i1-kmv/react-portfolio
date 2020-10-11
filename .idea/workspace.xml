@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="0cacf6ba-44fe-453c-a804-31557f928cd7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Projects/ProjectsItem/ProjectsItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/ProjectsItem/ProjectsItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +36,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/easyCode/starDB/star-db" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -113,7 +118,10 @@
       <workItem from="1595178135109" duration="1562000" />
       <workItem from="1595268533575" duration="1522000" />
       <workItem from="1595351689683" duration="51000" />
-      <workItem from="1599478688117" duration="5212000" />
+      <workItem from="1599478688117" duration="5891000" />
+      <workItem from="1600096354759" duration="20000" />
+      <workItem from="1601037148341" duration="99000" />
+      <workItem from="1602421278655" duration="2929000" />
     </task>
     <task id="LOCAL-00001" summary="1st step ready">
       <created>1582804820391</created>
@@ -253,9 +261,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="Добавил проекты и настроил адаптив в блоке 'Works', добавил стили в 'Header'" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="255" y="278" key="FileChooserDialogImpl" timestamp="1599481973575">
+    <state x="255" y="278" key="FileChooserDialogImpl" timestamp="1600096372595">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="255" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599481973575" />
+    <state x="255" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600096372595" />
   </component>
 </project>
