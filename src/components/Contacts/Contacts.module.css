@@ -22,7 +22,11 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: stretch;
+    align-items: center;
+}
+
+.formButton {
+    margin: 0 auto;
 }
 
 input:focus,textarea:focus {
@@ -37,6 +41,7 @@ input {
     color: white;
     outline: none;
     border-radius: 10px;
+    width: 100%;
 }
 
 input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
@@ -53,12 +58,10 @@ textarea {
     color: white;
     font-size: 14px;
     border-radius: 10px;
+    width: 100%;
 }
 
-.button p {
-    background-color: chocolate;
-    margin: 0px;
-}
+
 
 @media screen and (max-width: 626px ) {
     form {
