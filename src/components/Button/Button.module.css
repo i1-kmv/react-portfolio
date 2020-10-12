@@ -16,7 +16,9 @@
     border: none;
     position: relative;
     font-family: Montserrat, sans-serif;
-
+    outline: none;
+    font-size: 14px;
+    letter-spacing: 2px;
 }
 
 .button:before {
@@ -24,12 +26,12 @@
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: -2px;
     height: 10px;
     width: 50%;
     background: darkcyan;
     z-index: -1;
-    transition: all .4s ease-in-out 0s;
+    transition: all .1s ease-in-out 0s;
     margin: 0 auto;
     border-radius: 10px;
 }
@@ -37,4 +39,9 @@
 .button:hover::before {
     width: 100%;
     height: 100%;
+    outline: none;
+}
+
+.button:active:before {
+   background: green;
 }

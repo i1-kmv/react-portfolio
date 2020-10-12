@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="0cacf6ba-44fe-453c-a804-31557f928cd7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +35,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/easyCode/gmail-NodeJs" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -122,7 +122,7 @@
       <workItem from="1601037148341" duration="99000" />
       <workItem from="1602421278655" duration="10507000" />
       <workItem from="1602444638553" duration="2955000" />
-      <workItem from="1602497602457" duration="5068000" />
+      <workItem from="1602497602457" duration="20833000" />
     </task>
     <task id="LOCAL-00001" summary="1st step ready">
       <created>1582804820391</created>
@@ -262,9 +262,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="Добавил проекты и настроил адаптив в блоке 'Works', добавил стили в 'Header'" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="255" y="278" key="FileChooserDialogImpl" timestamp="1602492040686">
+    <state x="255" y="278" key="FileChooserDialogImpl" timestamp="1602521809135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="255" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602492040686" />
+    <state x="255" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602521809135" />
   </component>
 </project>

@@ -3,7 +3,7 @@ import styles from './Button.module.css'
 
 const Button  = (props) => {
     return (
-        <a href="#"className={styles.button} >{props.name}</a>
+        <button type={props.buttonType} className={styles.button}>{props.name}</button>
 
     )
 }

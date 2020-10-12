@@ -50,7 +50,7 @@ const App = () => {
                 <Skills name={logos.titleName[0]}/>
                 <Projects name={logos.titleName[1]} />
                 <Slogan name={logos.titleName[2]} buttonName={logos.buttonNames[1]}/>
-                <Contacts name={logos.titleName[3]} buttonName={logos.buttonNames[0]}/>
+                <Contacts name={logos.titleName[3]} buttonName={logos.buttonNames[0]} buttonType={'submit'}/>
                 <Footer/>
             </div>
     );

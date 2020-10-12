@@ -4,7 +4,7 @@ import Title from "../Title/Title";
 import Button from "../Button/Button";
 import Fade from 'react-reveal/Fade';
 import {useFormik} from "formik";
-import {AxiosInstance as axios} from "axios";
+import  axios from "axios";
 
 const Contacts = (props) => {
 
@@ -29,14 +29,17 @@ const Contacts = (props) => {
             }
             return errors;
         },
-        onSubmit: (values, e) => {
-            e.preventDefault()
-
-            axios.post('http://localhost:3010/sendMessage')
+        onSubmit: async (values, {resetForm}) => {
+           await axios.post('https://smtp-server-for.herokuapp.com/sendMessage', {
+                name: values.name,
+                email: values.email,
+                message: values.message
+            })
                 .then(() => {
-                    alert('your message has been send')
+                    alert("your message has been sent")
                 })
-        },
+            resetForm()
+        }
     })
 
 
@@ -57,24 +60,21 @@ const Contacts = (props) => {
 
                         <input type="email"
                                placeholder={'Your email address'}
-                               name={'email'} {...formik.getFieldProps('email')}
+                               name={'email'}
+                               {...formik.getFieldProps('email')}
                         />
                         {formik.errors.email ? <div>{formik.errors.email}</div> : null}
 
-                        <textarea id="" cols="30" rows="10"
+                        <textarea cols="30" rows="10"
                                   placeholder={"Enter a message"}
                                   name={'message'}
-                                  {...formik.getFieldProps('message')}>
-
-                        </textarea>
+                                  {...formik.getFieldProps('message')}
+                        >
+                                 </textarea>
                         {formik.errors.message ? <div>{formik.errors.message}</div> : null}
-                        <Button type={'submit'} name={props.buttonName} />
-
+                        <Button type={props.buttonType} name={props.buttonName}></Button>
                     </form>
-
                 </Fade>
-
-
             </div>
         </div>
     );
