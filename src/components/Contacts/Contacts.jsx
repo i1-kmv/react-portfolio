@@ -5,8 +5,12 @@ import Button from "../Button/Button";
 import Fade from 'react-reveal/Fade';
 import {useFormik} from "formik";
 import  axios from "axios";
+import CustomizedSnackbars from "../Utils/Alert";
+
+
 
 const Contacts = (props) => {
+
 
     const formik = useFormik({
         initialValues: {
@@ -35,8 +39,10 @@ const Contacts = (props) => {
                 email: values.email,
                 message: values.message
             })
-                .then(() => {
-                    alert("your message has been sent")
+                .then((res) => {
+                    if (res.status === 200) {
+                        props.setLoaded(true)
+                    }
                 })
             resetForm()
         }
