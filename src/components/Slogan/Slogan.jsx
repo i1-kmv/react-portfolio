@@ -3,6 +3,7 @@ import styles from './Slogan.module.css'
 import Title from "../Title/Title";
 import Button from "../Button/Button";
 import Fade from 'react-reveal/Fade';
+import {Link} from "react-scroll";
 
 const Slogan = (props) => {
     return (
@@ -10,7 +11,15 @@ const Slogan = (props) => {
             <Fade bottom>
                 <div className={styles.container}>
                     <Title name={props.name}/>
-                    <Button name={props.buttonName}/>
+                    <Link to="contacts" spy={true}
+                          smooth={true}
+                          offset={-70}
+                          duration={1500}
+                          className={styles.nav__link}
+                    >
+                        <Button name={props.buttonName}></Button>
+                    </Link>
+
                 </div>
             </Fade>
         </div>

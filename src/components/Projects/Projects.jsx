@@ -16,13 +16,14 @@ import starWarsImg from '../../image/12.png';
 import TodoList from '../../image/13.png'
 
 
+
 const Projects = (props) => {
 
     let projects = [
         {
             name: 'React - Counter',
             link: 'https://i1-kmv.github.io/hardCounter/',
-            style: {backgroundImage: `url(${counterImg})`}
+            style: {backgroundImage: `url(${counterImg})`},
         },
         {
             name: 'TypeScript - ToDoList',
@@ -34,8 +35,14 @@ const Projects = (props) => {
             link: 'https://i1-kmv.github.io/Present-calc/',
             style: {backgroundImage: `url(${walletImg})`}
         },
-        {name: 'Repair', link: 'https://i1-kmv.github.io/repair-gh/', style: {backgroundImage: `url(${repairImg})`}},
-        {name: 'Skinali', link: 'https://i1-kmv.github.io/skinali-/', style: {backgroundImage: `url(${skinaliImg})`}},
+        {
+            name: 'Repair',
+            link: 'https://i1-kmv.github.io/repair-gh/',
+            style: {backgroundImage: `url(${repairImg})`}},
+        {
+            name: 'Skinali',
+            link: 'https://i1-kmv.github.io/skinali-/',
+            style: {backgroundImage: `url(${skinaliImg})`}},
         {
             name: 'React blog page',
             link: 'https://i1-kmv.github.io/React-Blog/',
@@ -66,13 +73,13 @@ const Projects = (props) => {
     ]
 
 
-    let projectsItems = projects.map((project) =>
-        <ProjectsItem style={project.style} link={project.link} projectName={project.name}/>
+    let projectsItems = projects.map((project, index) => {
+            return <ProjectsItem style={project.style} link={project.link} projectName={project.name} key={index}/>
+        }
     )
 
     return (
         <div className={styles.works}>
-
             <div className={styles.container} id={'projects'}>
                 <Title name={props.name}/>
 

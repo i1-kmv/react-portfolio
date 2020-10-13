@@ -3,7 +3,7 @@ import styles from './Skills.module.css';
 import SkillsItem from "./SkillsItem/SkillsItem";
 import Title from "../Title/Title";
 import Fade from 'react-reveal/Fade';
-import { Link, animateScroll as scroll } from "react-scroll";
+
 
 
 
@@ -21,8 +21,8 @@ const Skills = (props) => {
         {skillName:  'GitHub' , skillImage:  <img src="https://img.icons8.com/ios-filled/250/000000/github.png"/> },
     ]
 
-    const skills = data.map( (s) => {
-        return <SkillsItem name={s.skillsName} image={s.skillImage}/>
+    const skills = data.map( (s, index) => {
+        return <SkillsItem name={s.skillsName} image={s.skillImage} key={index}/>
     })
 
     return (
