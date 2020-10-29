@@ -1,16 +1,15 @@
-import React from 'react';
+import React from 'react'
 import styles from './Contacts.module.css'
-import Title from "../Title/Title";
-import Button from "../Button/Button";
-import Fade from 'react-reveal/Fade';
-import {useFormik} from "formik";
-import  axios from "axios";
-import CustomizedSnackbars from "../Utils/Alert";
+import Title from "../Title/Title"
+import Button from "../Button/Button"
+import Fade from 'react-reveal/Fade'
+import {useFormik} from "formik"
+import  axios from "axios"
+
 
 
 
 const Contacts = (props) => {
-
 
     const formik = useFormik({
         initialValues: {
@@ -83,7 +82,7 @@ const Contacts = (props) => {
                 </Fade>
             </div>
         </div>
-    );
+    )
 }
 
-export default Contacts;
+export default Contacts

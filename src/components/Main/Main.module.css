@@ -67,8 +67,6 @@
     transform: rotateZ(400grad);
 }
 
-
-
 .main__image {
     display: block;
     height: 400px;
@@ -85,7 +83,6 @@
     transition: all .6s ease-in-out 0s;
 
 }
-
 
 .main__image:before {
     content: '';
