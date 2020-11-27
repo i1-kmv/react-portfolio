@@ -14,6 +14,7 @@ import pulseImg from '../../image/10.png';
 import taxiImg from '../../image/11.png';
 import starWarsImg from '../../image/12.png';
 import TodoList from '../../image/13.png'
+import Pokemon from '../../image/15.png'
 
 
 
@@ -21,14 +22,19 @@ const Projects = (props) => {
 
     let projects = [
         {
-            name: 'React - Counter',
-            link: 'https://i1-kmv.github.io/hardCounter/',
-            style: {backgroundImage: `url(${counterImg})`},
+            name: 'TypeScript -Pokemon cards',
+            link: 'https://i1-kmv.github.io/KODE-test2-pokemonApp/',
+            style: {backgroundImage: `url(${Pokemon})`}
         },
         {
             name: 'TypeScript - ToDoList',
             link: ' https://i1-kmv.github.io/TODOLIST-TS/',
             style: {backgroundImage: `url(${TodoList})`}
+        },
+        {
+            name: 'React - Counter',
+            link: 'https://i1-kmv.github.io/hardCounter/',
+            style: {backgroundImage: `url(${counterImg})`},
         },
         {
             name: 'Expense calculator',
