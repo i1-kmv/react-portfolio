@@ -28,7 +28,7 @@ const Footer = () => {
                         {footerItems}
                     </div>
                     <div className={styles.rights}>
-                        <p>2020 ©All rights reserved</p>
+                        <p>2021 ©All rights reserved</p>
                     </div>
                 </div>
             </Fade>

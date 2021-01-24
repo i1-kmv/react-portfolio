@@ -9,7 +9,7 @@ const Slogan = (props) => {
     return (
         <div className={styles.slogan}>
             <Fade bottom>
-                <div className={styles.container}>
+                <div id={"slogan"} className={styles.container}>
                     <Title name={props.name}/>
                     <Link to="contacts" spy={true}
                           smooth={true}
