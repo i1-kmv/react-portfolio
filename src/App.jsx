@@ -33,11 +33,15 @@ const particlesOpt = {
 
 const App = () => {
 
+    const [language, setLanguage] = useState('eng')
+
     const [loaded, setLoaded] = useState(false)
 
     let logos = {
         titleName: ['My skills', 'My Projects', 'I work as a freelancer', 'Contacts'],
-        buttonNames: ['To send', 'Hire me']
+        titleTranslateName: ['Технологии', 'Мои проекты', 'Работаю на фрилансе', 'Контакты' ],
+        buttonNames: ['To send', 'Hire me'],
+        buttonTranslateName:['Отправить', 'Нанять меня']
     }
 
     return (
@@ -45,14 +49,14 @@ const App = () => {
             <Particles className="particles"
                        params={particlesOpt}
             />
-            <Header/>
-            <Main/>
-            <Skills name={logos.titleName[0]}/>
-            <Projects name={logos.titleName[1]}/>
-            <Slogan name={logos.titleName[2]} buttonName={logos.buttonNames[1]}/>
-            <Contacts name={logos.titleName[3]} buttonName={logos.buttonNames[0]} buttonType={'submit'}
-                      setLoaded={setLoaded}/>
-            <Footer/>
+            <Header language={language} setLanguage={setLanguage}/>
+            <Main language={language}/>
+            <Skills name={logos.titleName[0]} runame={logos.titleTranslateName[0]} language={language}/>
+            <Projects name={logos.titleName[1]} runame={logos.titleTranslateName[1]} language={language}/>
+            <Slogan name={logos.titleName[2]} runame={logos.titleTranslateName[2]} buttonName={logos.buttonNames[1]} rubuttonName={logos.buttonTranslateName[1]} language={language}/>
+            <Contacts name={logos.titleName[3]} runame={logos.titleTranslateName[3]} buttonName={logos.buttonNames[0]}  rubuttonName={logos.buttonTranslateName[0]}  buttonType={'submit'}
+                      setLoaded={setLoaded} language={language}/>
+            <Footer language={language}/>
             {loaded && <CustomizedSnackbars/>}
         </div>
     )

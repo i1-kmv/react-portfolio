@@ -10,14 +10,14 @@ const Slogan = (props) => {
         <div className={styles.slogan}>
             <Fade bottom>
                 <div id={"slogan"} className={styles.container}>
-                    <Title name={props.name}/>
+                    <Title name={props.name} runame={props.runame} anguage={props.language}/>
                     <Link to="contacts" spy={true}
                           smooth={true}
                           offset={-70}
                           duration={1500}
                           className={styles.nav__link}
                     >
-                        <Button name={props.buttonName}></Button>
+                        <Button name={props.buttonName} runame={props.rubuttonName} language={props.language}></Button>
                     </Link>
 
                 </div>

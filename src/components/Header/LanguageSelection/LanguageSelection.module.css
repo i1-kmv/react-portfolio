@@ -1,0 +1,17 @@
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+}
+
+
+.item img {
+    width: 30px;
+    height: 20px;
+    opacity: 0.6;
+}
+
+.item img:hover {
+    cursor: pointer;
+    opacity: 1;
+}

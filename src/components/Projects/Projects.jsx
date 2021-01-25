@@ -87,7 +87,7 @@ const Projects = (props) => {
     return (
         <div className={styles.works}>
             <div className={styles.container} id={'projects'}>
-                <Title name={props.name}/>
+                <Title name={props.name} runame={props.runame} language={props.language}/>
 
                 <div className={styles.works__items}>
                     {projectsItems}

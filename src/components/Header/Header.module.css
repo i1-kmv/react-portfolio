@@ -13,9 +13,17 @@
 .container {
     min-width: 80%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
 }
+
+@media screen and (max-width: 670px ) {
+   .container {
+       flex-direction: column;
+   }
+}
+
+
 
 
 

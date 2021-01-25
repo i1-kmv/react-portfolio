@@ -20,15 +20,15 @@ const Contacts = (props) => {
         validate: (values) => {
             const errors = {};
             if (!values.email) {
-                errors.email = 'Required field';
+                errors.email = (props.language === 'eng') ? 'Required field' : 'Данное поле необходимо заполнить!';
             } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)) {
-                errors.email = 'Invalid email address';
+                errors.email = (props.language === 'eng') ? 'Invalid email address!' : 'Некорректный адрес электронной почты!'
             }
             if (!values.name) {
-                errors.name = 'Required field';
+                errors.name = (props.language === 'eng') ? 'Required field' : 'Данное поле необходимо заполнить!';
             }
             if (!values.message) {
-                errors.message = 'Required field';
+                errors.message = (props.language === 'eng') ? 'Required field' : 'Данное поле необходимо заполнить!';
             }
             return errors;
         },
@@ -51,11 +51,11 @@ const Contacts = (props) => {
     return (
         <div id={"contacts"} className={styles.contacts}>
             <div className={styles.container}>
-                <Fade right> <Title name={props.name}/></Fade>
+                <Fade right> <Title name={props.name} language={props.language} runame={props.runame}/></Fade>
                 <Fade left>
                     <form onSubmit={formik.handleSubmit}>
 
-                        <input type="text" placeholder={'Your name'}
+                        <input type="text" placeholder={(props.language === 'eng') ? 'Your name' : 'Ваше имя'}
                                name={'name'}
                                {...formik.getFieldProps('name')
                                }
@@ -64,20 +64,20 @@ const Contacts = (props) => {
 
 
                         <input type="email"
-                               placeholder={'Your email address'}
+                               placeholder={(props.language === 'eng') ? 'Your email address' : 'Адрес вашей электронной почты'}
                                name={'email'}
                                {...formik.getFieldProps('email')}
                         />
                         {formik.errors.email ? <div>{formik.errors.email}</div> : null}
 
                         <textarea cols="30" rows="10"
-                                  placeholder={"Enter a message"}
+                                  placeholder={(props.language === 'eng') ? 'Enter a message' : 'Введите сообщение'}
                                   name={'message'}
                                   {...formik.getFieldProps('message')}
                         >
                                  </textarea>
                         {formik.errors.message ? <div>{formik.errors.message}</div> : null}
-                        <Button type={props.buttonType} name={props.buttonName}></Button>
+                        <Button type={props.buttonType} name={props.buttonName} runame={props.rubuttonName} language={props.language}></Button>
                     </form>
                 </Fade>
             </div>

@@ -3,7 +3,7 @@ import styles from './NavMenu.module.css'
 import {Link} from "react-scroll";
 
 
-const NavMenu = () => {
+const NavMenu = (props) => {
     return (
         <div className={styles.nav}>
             <Link to="main" spy={true}
@@ -13,7 +13,7 @@ const NavMenu = () => {
                   className={styles.nav__link}
                   activeClass={styles.active}
             >
-                Main
+                {(props.language === 'eng') ? 'Main' : 'Главная'}
             </Link>
             <Link to="skills" spy={true}
                   smooth={true}
@@ -22,7 +22,7 @@ const NavMenu = () => {
                   className={styles.nav__link}
                   activeClass={styles.active}
             >
-                Skills
+                {(props.language === 'eng') ? 'Skills' : 'Навыки'}
             </Link>
             <Link to="projects" spy={true}
                   smooth={true}
@@ -31,7 +31,7 @@ const NavMenu = () => {
                   className={styles.nav__link}
                   activeClass={styles.active}
             >
-                Projects
+                {(props.language === 'eng') ? 'Projects' : 'Проекты'}
             </Link>
             <Link to="slogan" spy={true}
                   smooth={true}
@@ -40,7 +40,7 @@ const NavMenu = () => {
                   className={styles.nav__link}
                   activeClass={styles.active}
             >
-                Contacts
+                {(props.language === 'eng') ? 'Contacts' : 'Контакты'}
             </Link>
         </div>
     );

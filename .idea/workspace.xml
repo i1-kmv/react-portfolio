@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cacf6ba-44fe-453c-a804-31557f928cd7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Header/LanguageSelection/LanguageSelection.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/LanguageSelection/LanguageSelection.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/NavMenu/NavMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/NavMenu/NavMenu.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/NavMenu/NavMenu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/NavMenu/NavMenu.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Slogan/Slogan.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slogan/Slogan.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Title/Title.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Title/Title.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -131,7 +143,8 @@
       <workItem from="1604301068575" duration="53000" />
       <workItem from="1606489248251" duration="912000" />
       <workItem from="1609771404024" duration="35000" />
-      <workItem from="1611495674905" duration="583000" />
+      <workItem from="1611495674905" duration="1136000" />
+      <workItem from="1611590248518" duration="4345000" />
     </task>
     <task id="LOCAL-00001" summary="1st step ready">
       <created>1582804820391</created>
@@ -271,9 +284,29 @@
     <option name="LAST_COMMIT_MESSAGE" value="Добавил проекты и настроил адаптив в блоке 'Works', добавил стили в 'Header'" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="255" y="278" key="FileChooserDialogImpl" timestamp="1609771442530">
+    <state x="552" y="179" key="#ESLint" timestamp="1611590444867">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="255" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609771442530" />
+    <state x="552" y="179" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1611590444867" />
+    <state x="255" y="278" key="FileChooserDialogImpl" timestamp="1611496813109">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="255" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611496813109" />
+    <state width="1899" height="206" key="GridCell.Tab.0.bottom" timestamp="1611496523169">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="206" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611496523169" />
+    <state width="1899" height="206" key="GridCell.Tab.0.center" timestamp="1611496523169">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="206" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611496523169" />
+    <state width="1899" height="206" key="GridCell.Tab.0.left" timestamp="1611496523169">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="206" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611496523169" />
+    <state width="1899" height="206" key="GridCell.Tab.0.right" timestamp="1611496523169">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="206" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611496523169" />
   </component>
 </project>

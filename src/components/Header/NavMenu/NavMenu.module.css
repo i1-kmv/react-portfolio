@@ -21,7 +21,11 @@
     color: darkcyan;
 }
 
-
+@media screen and (max-width: 670px ) {
+    .nav {
+        margin-bottom: 10px;
+    }
+}
 
 @media screen and (max-width: 400px ) {
     .nav__link {

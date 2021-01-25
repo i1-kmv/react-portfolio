@@ -29,7 +29,7 @@ const Skills = (props) => {
 
         <div className={styles.skills} id={'skills'} >
             <div className={styles.container}>
-                <Title name={props.name}/>
+                <Title name={props.name} runame={props.runame} language={props.language}/>
                 <Fade clear>
                 <div className={styles.skills__item} >
                     {skills}
