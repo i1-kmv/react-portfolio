@@ -10,7 +10,7 @@ const Slogan = (props) => {
         <div className={styles.slogan}>
             <Fade bottom>
                 <div id={"slogan"} className={styles.container}>
-                    <Title name={props.name} runame={props.runame} anguage={props.language}/>
+                    <Title name={props.name} runame={props.runame} language={props.language}/>
                     <Link to="contacts" spy={true}
                           smooth={true}
                           offset={-70}
