@@ -54,11 +54,6 @@ const Projects = (props) => {
             link: 'https://i1-kmv.github.io/React-Blog/',
             style: {backgroundImage: `url(${blogImg})`}
         },
-        {
-            name: 'Work with GOT Api',
-            link: 'https://i1-kmv.github.io/React-GotApp/',
-            style: {backgroundImage: `url(${gotImg})`}
-        },
         {name: 'ART', link: 'https://i1-kmv.github.io/Art/', style: {backgroundImage: `url(${artImg})`}},
         {
             name: 'Window shop',
