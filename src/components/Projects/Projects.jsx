@@ -1,20 +1,20 @@
-import React from 'react';
+import React from 'react'
 import styles from './Projects.module.css'
-import ProjectsItem from "./ProjectsItem/ProjectsItem";
-import Title from "../Title/Title";
-import counterImg from "../../image/2.png";
-import walletImg from "../../image/3.png";
-import repairImg from "../../image/4.png";
-import skinaliImg from "../../image/5.png";
-import blogImg from "../../image/6.png";
-import gotImg from '../../image/7.png';
-import artImg from '../../image/8.png';
-import windowsImg from '../../image/9.png';
-import pulseImg from '../../image/10.png';
-import taxiImg from '../../image/11.png';
-import starWarsImg from '../../image/12.png';
+import ProjectsItem from "./ProjectsItem/ProjectsItem"
+import Title from "../Title/Title"
+import counterImg from "../../image/2.png"
+import walletImg from "../../image/3.png"
+import repairImg from "../../image/4.png"
+import skinaliImg from "../../image/5.png"
+import blogImg from "../../image/6.png"
+import artImg from '../../image/8.png'
+import windowsImg from '../../image/9.png'
+import pulseImg from '../../image/10.png'
+import taxiImg from '../../image/11.png'
+import starWarsImg from '../../image/12.png'
 import TodoList from '../../image/13.png'
 import Pokemon from '../../image/15.png'
+import Culture from '../../image/16.png'
 
 
 
@@ -30,6 +30,11 @@ const Projects = (props) => {
             name: 'TypeScript - ToDoList',
             link: ' https://i1-kmv.github.io/TODOLIST-TS/',
             style: {backgroundImage: `url(${TodoList})`}
+        },
+        {
+            name: 'React - CultureNews',
+            link: 'https://i1-kmv.github.io/weLoveCulture/',
+            style: {backgroundImage: `url(${Culture})`},
         },
         {
             name: 'React - Counter',
