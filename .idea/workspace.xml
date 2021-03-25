@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0cacf6ba-44fe-453c-a804-31557f928cd7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,18 +53,19 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\react-portfolio\react-portfolio\src\conponents\Button" />
-      <recent name="D:\react-portfolio\react-portfolio\src\conponents\Footer\FooterItem" />
-      <recent name="D:\react-portfolio\react-portfolio\src\conponents\Title" />
-      <recent name="D:\react-portfolio\react-portfolio\src\conponents\Works\WorksItem" />
-      <recent name="D:\react-portfolio\react-portfolio\src\conponents\Skills\SkillsItem" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\easyCode\react-portfolio\react-portfolio\src\components\Diploms" />
       <recent name="D:\react-portfolio\react-portfolio\src\image" />
       <recent name="D:\react-portfolio\react-portfolio\src\conponents\Main" />
       <recent name="D:\react-portfolio\react-portfolio\src\conponents\Skills\SkillsItem" />
       <recent name="D:\react-portfolio\react-portfolio\src\conponents\Header" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\easyCode\react-portfolio\react-portfolio\src\components" />
+      <recent name="D:\react-portfolio\react-portfolio\src\conponents\Button" />
+      <recent name="D:\react-portfolio\react-portfolio\src\conponents\Footer\FooterItem" />
+      <recent name="D:\react-portfolio\react-portfolio\src\conponents\Title" />
+      <recent name="D:\react-portfolio\react-portfolio\src\conponents\Works\WorksItem" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -142,7 +146,8 @@
       <workItem from="1614081331012" duration="3556000" />
       <workItem from="1614116104316" duration="741000" />
       <workItem from="1614236415935" duration="1618000" />
-      <workItem from="1615490418350" duration="266000" />
+      <workItem from="1615490418350" duration="686000" />
+      <workItem from="1615569251877" duration="3277000" />
     </task>
     <task id="LOCAL-00001" summary="1st step ready">
       <created>1582804820391</created>
@@ -286,10 +291,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1611590444867" />
-    <state x="255" y="278" key="FileChooserDialogImpl" timestamp="1614241524462">
+    <state x="255" y="278" key="FileChooserDialogImpl" timestamp="1615491106636">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="255" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614241524462" />
+    <state x="255" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1615491106636" />
     <state width="1899" height="206" key="GridCell.Tab.0.bottom" timestamp="1611651629461">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

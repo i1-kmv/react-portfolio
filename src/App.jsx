@@ -11,6 +11,7 @@ import Particles from 'react-particles-js'
 import CustomizedSnackbars from "./components/Utils/Alert"
 
 
+
 const particlesOpt = {
     "particles": {
         "number": {
