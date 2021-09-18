@@ -1,9 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styles from './NavMenu.module.css'
 import {Link} from "react-scroll";
 
 
 const NavMenu = (props) => {
+    const [quickMode, setQuickMode] = useState(false)
+
     return (
         <div className={styles.nav}>
             <Link to="main" spy={true}
