@@ -4,6 +4,7 @@ import SkillsItem from "./SkillsItem/SkillsItem";
 import Title from "../Title/Title";
 import Fade from 'react-reveal/Fade'
 import vuex from '../../image/17.svg'
+import {DiplomGallery} from "./DiplomGallery/DiplomGallery";
 
 
 
@@ -35,6 +36,7 @@ const Skills = (props) => {
                     {skills}
                 </div>
                 </Fade>
+                <DiplomGallery/>
             </div>
         </div>
     );
