@@ -29,8 +29,8 @@ const items = [
 
 const responsive = {
     0: { items: 1 },
-    568: { items: 2 },
-    1024: { items: 3 },
+    725: { items: 2 },
+    1024: { items: 2 },
 };
 
 const createItems = (length, [handleClick]) => {
@@ -60,15 +60,18 @@ export const DiplomGallery = () => {
     const syncActiveIndex = ({ item }) => setActiveIndex(item);
 
     return [
-        <AliceCarousel
-            mouseTracking
-            disableDotsControls
-            disableButtonsControls
-            items={items}
-            activeIndex={activeIndex}
-            responsive={responsive}
-            onSlideChanged={syncActiveIndex}
-        />,
+        <div className={style.slider}>
+            <AliceCarousel
+                mouseTracking
+                disableDotsControls
+                disableButtonsControls
+                items={items}
+                activeIndex={activeIndex}
+                responsive={responsive}
+                onSlideChanged={syncActiveIndex}
+                infinite
+            />
+        </div>,
         <div className={style.btns}>
             <div className={style.btn} onClick={slidePrev}><img src={left} alt=""/></div>
             <div className={style.btn} onClick={slideNext}><img src={right} alt=""/></div>

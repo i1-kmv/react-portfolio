@@ -8,6 +8,7 @@ import {DiplomGallery} from "./DiplomGallery/DiplomGallery";
 
 
 
+
 const Skills = (props) => {
 
     const data = [
@@ -27,7 +28,6 @@ const Skills = (props) => {
     })
 
     return (
-
         <div className={styles.skills} id={'skills'} >
             <div className={styles.container}>
                 <Title name={props.name} runame={props.runame} language={props.language}/>

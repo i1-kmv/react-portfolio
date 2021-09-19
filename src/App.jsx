@@ -39,8 +39,8 @@ const App = () => {
     const [loaded, setLoaded] = useState(false)
 
     let logos = {
-        titleName: ['My skills', 'My Projects', 'I work as a freelancer', 'Contacts'],
-        titleTranslateName: ['Технологии', 'Мои проекты', 'Работаю на фрилансе', 'Контакты' ],
+        titleName: ['My skills and education', 'My Projects', 'I work as a freelancer', 'Contacts'],
+        titleTranslateName: ['Технологии и образование', 'Мои проекты', 'Работаю на фрилансе', 'Контакты' ],
         buttonNames: ['To send', 'Hire me'],
         buttonTranslateName:['Отправить', 'Нанять меня']
     }
