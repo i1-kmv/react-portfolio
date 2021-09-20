@@ -31,6 +31,13 @@
     }
 }
 
+@media screen and (max-width: 725px ) {
+   .skills {
+       margin-top: 30px;
+       margin-bottom: 30px;
+   }
+}
+
 
 @media screen and (max-width: 600px ) {
     .skills__item {

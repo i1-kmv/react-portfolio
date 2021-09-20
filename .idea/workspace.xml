@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cacf6ba-44fe-453c-a804-31557f928cd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Modal/Modal.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Modal/Modal.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Skills/DiplomGallery/DiplomGallery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/DiplomGallery/DiplomGallery.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Skills/DiplomGallery/DiplomGallery.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/DiplomGallery/DiplomGallery.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/image/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +150,8 @@
       <workItem from="1616696023309" duration="329000" />
       <workItem from="1616855561656" duration="81000" />
       <workItem from="1631980412355" duration="12081000" />
-      <workItem from="1632037919548" duration="9809000" />
+      <workItem from="1632037919548" duration="11186000" />
+      <workItem from="1632162614032" duration="508000" />
     </task>
     <task id="LOCAL-00001" summary="1st step ready">
       <created>1582804820391</created>

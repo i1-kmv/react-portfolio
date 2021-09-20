@@ -29,8 +29,8 @@ const items = [
 
 const responsive = {
     0: { items: 1 },
-    725: { items: 2 },
-    1024: { items: 2 },
+    869: {items: 2 },
+    1024: { items: 3},
 };
 
 const createItems = (length, [handleClick]) => {
