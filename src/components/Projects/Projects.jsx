@@ -15,6 +15,7 @@ import starWarsImg from '../../image/12.png'
 import TodoList from '../../image/13.png'
 import Pokemon from '../../image/15.png'
 import Culture from '../../image/16.png'
+import Weather from '../../image/17.png'
 
 
 
@@ -35,6 +36,11 @@ const Projects = (props) => {
             name: 'React - CultureNews',
             link: 'https://i1-kmv.github.io/weLoveCulture/',
             style: {backgroundImage: `url(${Culture})`},
+        },
+        {
+            name: 'WeatherApp',
+            link: 'https://i1-kmv.github.io/weatherApp/',
+            style: {backgroundImage: `url(${Weather})`}
         },
         {
             name: 'React - Counter',
