@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0cacf6ba-44fe-453c-a804-31557f928cd7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +150,9 @@
       <workItem from="1632037919548" duration="11186000" />
       <workItem from="1632162614032" duration="779000" />
       <workItem from="1632249150543" duration="345000" />
-      <workItem from="1633030552402" duration="833000" />
+      <workItem from="1633030552402" duration="1212000" />
+      <workItem from="1633087649348" duration="368000" />
+      <workItem from="1633088045542" duration="235000" />
     </task>
     <task id="LOCAL-00001" summary="1st step ready">
       <created>1582804820391</created>
@@ -299,6 +300,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1632249495550" />
+    <state width="1899" height="206" key="GridCell.Tab.0.bottom" timestamp="1633088068260">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="206" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1633088068260" />
+    <state width="1899" height="206" key="GridCell.Tab.0.center" timestamp="1633088068260">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="206" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1633088068260" />
+    <state width="1899" height="206" key="GridCell.Tab.0.left" timestamp="1633088068259">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="206" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1633088068259" />
+    <state width="1899" height="206" key="GridCell.Tab.0.right" timestamp="1633088068260">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="206" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1633088068260" />
     <state x="607" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1631991807202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

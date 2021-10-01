@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center ;
+    box-sizing: border-box;
 }
 
 .container {
@@ -40,6 +41,10 @@
 
 
 @media screen and (max-width: 600px ) {
+    .skills {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
     .skills__item {
         justify-content: center;
     }
